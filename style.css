@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+/* navbar */
+body{
+   /* overflow: hidden;*/
+}
+.countainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+}
+nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    background-color: whitesmoke;
+    
+    z-index: 111;  
+}
+.logo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav-link{
+    display: flex;
+    
+}
+.nav-link a{
+    list-style: none;
+    margin: 0 15px;
+}
+.nav-link a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 525;
+    gap: 60em;
+}
+.nav-link a:hover,
+.link a{
+    color: darkblue;
+}
+.link a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: calc(100vhv - 80px);
+    justify-content: left;
+    align-items: left;
+    padding: 0 10%;
+    overflow: hidden;
+}
+.cols{
+    width: 50%;
+}
+.cols0{
+    width: 60;
+    z-index: 5;
+}
+.topline{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #3d535f;
+}
+h1{
+    display: block;
+    font-size: 3em;
+    font-weight: 900;
+    color: #3d535f;
+}
+.multiText{
+    color: darkorchid;
+    text-transform: capitalize;
+}
+p{
+    display: block;
+    width: 90%;
+    font-size: 1em;
+    color: #3d535f;
+}
+.btns{
+    width: 100%;
+    position: relative;
+    left: 150px;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background-color: darkgray;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,4);
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.sosial-icon{
+    display: flex;
+    position: relative;
+    gap: 40px;
+    
+}
+.sosial-icon a{
+    color: #3d535f;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.sosial-icon a:hover{
+    transform: scale(1.3);
+}
